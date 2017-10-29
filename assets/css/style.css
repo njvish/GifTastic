@@ -1,0 +1,24 @@
+
+body {
+    background-image: url("../images/greybackground.png");
+}
+
+.new {
+	font-size: 20px;
+}
+
+.button-list {
+    margin: 15px 5px;
+}
+
+.button-submit {
+    margin-top: 10px;
+}
+
+.gif-margin {
+    margin-bottom: 25px;
+}
+
+.panel {
+    background-color: black;
+}

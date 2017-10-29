@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <title>GIF Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                <h2 class="text-center">Lets get festive with some holidays!</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-9" id="holidayButtons"></div>
+            <div class="col-sm-3">
+                <form id="holidayForm">
+                    <label for="newHoliday" class="new">Enter a new holiday:</label>
+                    <input class="form-control" type="text" id="holidayInput">
+                    <button id="addHoliday" class="btn btn-primary btn-block button-submit" type="submit" value="Submit">Add</button>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-9" id="holiday">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>
